@@ -29,6 +29,3 @@ app.get('*', function( req, res){
 });
 
 module.exports = app;
-
-// 24hr interval for data calls..
-// setInterval(function () { updateCache(); }, 1000 * 60 * 60 * 24);
